@@ -1,19 +1,41 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+## 📝 Chores List
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple and interactive chores list app to keep track of your daily tasks. Add, delete, and mark chores as completed with a clean and colorful interface.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+---
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 🚀 Live Demo  
+[🔗 Visit Website]
 
-Happy Coding!
+---
+
+## 🚀 Features
+
+- **Add Tasks** – Quickly add chores to your list.
+
+- **Delete Tasks** – Remove completed or unnecessary chores.
+
+- **Mark Complete** – Click a task to mark it as done (strikethrough + fade).
+
+- **Modern Design** – Colorful and clean UI with responsive layout.
+
+- **Lightweight** – Built with Vanilla HTML, CSS, and JavaScript.
+
+- **Modern UX Notes** – A checkbox-based completion system and persistent storage (localStorage) are recommended for an enhanced, modern user experience.
+
+---
+
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Page structure and semantics.
+
+- **CSS3** – Styling with modern color palette and responsive layout.
+
+- **JavaScript (Vanilla)** – Dynamic task management and interactivity.
+
+---
+
+
+## 📂 Project Status
+✅ Complete
