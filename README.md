@@ -5,7 +5,7 @@ A simple and interactive chores list app to keep track of your daily tasks. Add,
 ---
 
 ## 🚀 Live Demo  
-[🔗 Visit Website]
+[🔗 Visit Website](https://mariaigosheva.github.io/chores-list/)
 
 ---
 
