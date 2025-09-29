@@ -1,0 +1,113 @@
+/* COLOR PALETTE */
+:root {
+    --white: #FEFEFE;
+    --black: #000000;
+    --input-bg: #EEEEEE;
+    --add-btn: #FFCC68;
+    --delete-btn: #FF9548;
+    --chore-bg: #FBDF7C;
+}
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    width: 400px;
+    background: var(--white);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-family: 'Concert One', cursive;
+    color: var(--black);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+/* Input group */
+.input-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: var(--input-bg);
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#add-btn {
+    background-color: var(--add-btn);
+}
+
+#add-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.delete-btn {
+    background-color: var(--delete-btn);
+    color: var(--white);
+}
+
+.delete-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Task list */
+#task-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--chore-bg);
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Completed tasks */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
