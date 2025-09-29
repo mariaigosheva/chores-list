@@ -9,7 +9,7 @@ A simple and interactive chores list app to keep track of your daily tasks. Add,
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 - **Add Tasks** – Quickly add chores to your list.
 
